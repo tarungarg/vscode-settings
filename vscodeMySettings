@@ -1,0 +1,94 @@
+{
+  "tailwindCSS.rootFontSize": 10,
+  "breadcrumbs.enabled": false,
+  "debug.javascript.codelens.npmScripts": "never",
+  "editor.accessibilitySupport": "off",
+  "editor.bracketPairColorization.enabled": true,
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json5]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.autoSaveDelay": 1000,
+  "search.exclude": { "**/node_modules": true, "**/bower_components": true },
+  //Overriding a few HTML default format settings
+  //breaks HTML line on the basis of attributes
+  "html.format.wrapAttributes": "force",
+  //Indents inner HTML elements
+  "html.format.indentInnerHtml": true,
+  //Overriding a few editor default format settings
+  //enables editor to use 2 spaces for 1 tab
+  "editor.tabSize": 2,
+  //enable wordwrap in visual studio
+  "editor.wordWrap": "on",
+  //controls the indentation of wrapped lines
+  "editor.wrappingIndent": "indent",
+  //enables editor to format code while typing
+  "editor.formatOnType": true,
+  //This setting formats code as soon we save our code
+  "editor.formatOnSave": true,
+  "editor.renderWhitespace": "all",
+  //fix lint errors which support autofix feature
+  // Specifies the folder path containing the tsserver and lib*.d.ts files to use.
+  "typescript.tsdk": "./node_modules/typescript/lib",
+  // Complete functions with their parameter signature.
+  "files.insertFinalNewline": true,
+  "html.format.wrapLineLength": 180,
+  "git.autofetch": false,
+  "explorer.confirmDelete": false,
+  "files.trimTrailingWhitespace": true,
+  "html.format.indentHandlebars": true,
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": true,
+  "typescript.locale": "en",
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "typescript.preferences.quoteStyle": "single",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "explorer.compactFolders": false,
+  "editor.dragAndDrop": true,
+  "files.associations": {
+    "*.scss": "postcss"
+  },
+  "editor.guides.indentation": true,
+  "tailwindCSS.includeLanguages": {
+    "javascript": "javascript",
+    "javascriptreact": "javascriptreact",
+    "typescript": "typescript",
+    "typescriptreact": "typescriptreact",
+    "blade": "html"
+  },
+  "editor.inlineSuggest.enabled": true,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "editor.inlineSuggest.suppressSuggestions": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.colorTheme": "Visual Studio Dark",
+  "workbench.editorAssociations": {
+    "*.yaml": "default"
+  }
+}
